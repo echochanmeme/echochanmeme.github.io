@@ -1,54 +1,63 @@
-# Build settings
-permalink   : /blog/:year/:title/
-markdown    : kramdown
-highlighter : pygments
-gems: [jekyll-paginate]
+# Site settings
+title: 读立写生
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "陈素封|读而立·写而生"  
+baseurl: ""
+url: "http://cnfeat"  
 
-paginate: 3
-paginate_path: "/blog/page/:num/"
-comments: true
+# About/contact
+owner: 
+  name: " CnFeat"
+  email: CnFeat@gmail.com
+  bio: "写就是写的报酬"
 
-source: source
-destination: _site
-sass:
-  sass_dir: _scss
-  style: compressed # expanded
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.png
 
-# SEO settings
-title: Echo Chan
-description: "Echo Chan's Personal Blog."
-keywords: "Blog, Echo Chan, 艺术, 产品经理"
-url: http://echochan.cn
-baseurl: "/echo"
-# baseurl: ""
+douban_username:  
+twitter_username: 
+github_username: 
+facebook_username: 
+weibo_username: 
+zhihu_username: 
 
-# google_analytics: UA-52446115-1
-repo: https://github.com/echochanmeme/echochanmeme.github.io.git
-disqus_shortname: "echochan"
-disqus_site_shortname: "echochan"
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# Author settings
-author:
-  name      : Echo Chan
-  job       : PM
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb     : /images/author.jpg
-  email     : crecho@live.cn
-  url       : http://echochan.cn
-  github    : http://github.com/echochanmeme
-  twitter   : http://twitter.com/echochanmeme
-  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/echochanmeme
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
-# navbar pages
-navbar:
-  - slug: about
-    title: About
-  # - slug: resume
-  #   title: Resume
-  # - slug: skills
-  #   title: Skills
-  - slug: blog
-    title: Blog
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "CnFeat"
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : 
+  disqus :
+      short_name : 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation

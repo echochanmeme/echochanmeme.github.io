@@ -1,62 +1,24 @@
-# end2end
+##说明
 
-[![Build Status](https://travis-ci.org/nandomoreirame/end2end.svg?branch=master)](https://travis-ci.org/nandomoreirame/end2end)
+2016-02-29  更新 _config.yml 可用
 
-Clean Jekyll theme
+此博客 fork 自 [Azeril](http://azeril.me/)，感谢。
 
-> :warning:
-  This theme requires ruby and rubygems installed
+##读立写生
 
-* [x] Clean layout
-* [x] Resposive layout
-* [x] Preprocessor SASS
-* [x] CSS minified
-* [x] Pagination
-* [x] Syntax highlight
-* [x] Author config
-* [x] Comments with Disqus
-* [ ] Search posts
-* [ ] Share posts
+我是陈素封，博客：[cnfeat.com](cnfeat.com)
 
----
+每天千字践行者，践行时间：2014年02月10日至2014年02月23日，感谢这段经历，让我成为了现在的我。
 
-### Start in 4 steps
+现在研习 **认知写作学** 。
 
-1. Download or clone repo `git clone git@github.com:nandomoreirame/end2end.git`
-2. Enter the folder: `cd end2end/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve`
+##坚信
 
-Access, [localhost:4000/end2end](http://localhost:4000/end2end)
 
-### Deploy in Github pages in 2 steps
+- 元认知乃一切之源
+- 学苟知本，六经皆我注脚 
+- 一切技能皆可习得，包括写作
+- 「持续」并不是坚持，写就是最好的回报
 
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
 
----
 
-### Using Rake tasks
-
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
-
----
-
-### Demo and Download
-
-[Demo](http://nandomoreira.me/end2end/)
-[Download](https://github.com/nandomoreirame/end2end/archive/master.zip)
-
-![end2end - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-> :warning:
-  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `source/_layouts/default.html`
-
-Enjoy :yum:
