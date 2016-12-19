@@ -1,54 +1,16 @@
-# Build settings
-permalink   : /blog/:year/:title/
-markdown    : kramdown
-highlighter : pygments
+name: Echo Chan's Personal Blog.
+url: http://echochan.cn
+description: Insert tagline here
+
+permalink: /themes/:title/
+
 gems: [jekyll-paginate]
 
-paginate: 3
-paginate_path: "/blog/page/:num/"
-comments: true
+highlighter: pygments
+paginate: 20
 
-source: source
-destination: _site
-sass:
-  sass_dir: _scss
-  style: compressed # expanded
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
 
-# SEO settings
-title: Echo Chan
-description: "Echo Chan's Personal Blog."
-keywords: "Blog, Echo Chan, 艺术, 产品经理"
-url: http://echochan.cn
-baseurl: "/echo"
-# baseurl: ""
-
-# google_analytics: UA-52446115-1
-repo: https://github.com/echochanmeme/echochanmeme.github.io.git
-disqus_shortname: "echochan"
-disqus_site_shortname: "echochan"
-
-# Author settings
-author:
-  name      : Echo Chan
-  job       : PM
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb     : /images/author.jpg
-  email     : crecho@live.cn
-  url       : http://echochan.cn
-  github    : http://github.com/echochanmeme
-  twitter   : http://twitter.com/echochanmeme
-  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/echochanmeme
-
-# navbar pages
-navbar:
-  - slug: about
-    title: About
-  # - slug: resume
-  #   title: Resume
-  # - slug: skills
-  #   title: Skills
-  - slug: blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
