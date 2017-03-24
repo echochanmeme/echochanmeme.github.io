@@ -1,7 +1,61 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Basic
+title: Echo
+subtitle: 小天地
+description: welcome to Echo's world~
+# 头像里面的标题
+avatarTitle: Echochan
+# 头像里面的描述
+avatarDesc: 随笔 / 随笔
+url: "http://echochan.io"
 
-auto: true # automatically update your jekyll
-server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
+# Comment
+comment:
+    # disqus: echo
+    duoshuo: echo 
+
+# Social
+social:
+    weibo: Echo容 
+    github: echochan
+    # twitter: 
+    mail: crecho@live.cn
+
+
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #A0522D
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 故事, description: archive, url: '/archive'}   
+    - {title: 点滴, description: tags, url: '/tags'}      
+    - {title: 懂我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
 
