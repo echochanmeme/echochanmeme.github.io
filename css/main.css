@@ -400,7 +400,7 @@ img::-moz-selection {
   .footer {
     display: block;
     padding: 2em 0 0 0;
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #CC00FF;
     font-size: .7em;
     color: #b3b3b3; }
 
@@ -429,14 +429,14 @@ img::-moz-selection {
   .section-title__divider {
     width: 30%;
     margin: 2.2em 0 2.1em 0;
-    border-top: 1px solid #DDDDDD; 
+    border-top: 1px solid #CC00FF; 
   }
 
   .hidden {
     display: none !important; }
 
   .post-comments {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #CC00FF;
     padding: 60px 0; }
 
   .post-meta {
@@ -484,7 +484,7 @@ img::-moz-selection {
     display: block;
     width: 30%;
     margin: 2em 0;
-    border-top: 1px solid #DDDDDD; }
+    border-top: 1px solid #CC00FF; }
 
   .panel {
     display: table;
@@ -928,7 +928,7 @@ img::-moz-selection {
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 0px solid #DDDDDD; }
+  border-top: 1px solid #CC00FF; }
 
 *:focus {
   outline: none; }
@@ -949,7 +949,7 @@ input[type="tel"] {
   width: 240px;
   padding: 1em 1em;
   background: #FFF;
-  border: 1px solid #DDDDDD;
+  border: 1px solid #CC00FF;
   border-radius: 3px;
   font-size: .9em;
   color: #666666; }
@@ -1029,7 +1029,7 @@ input[type="tel"]:-ms-input-placeholder {
   margin-bottom: 1em;
   padding-top: 1.2em;
   padding-bottom: 1em;
-  border-top: 1px solid #DDDDDD; }
+  border-top: 1px solid #CC00FF; }
 
 .read-more-item {
   display: inline-block;
