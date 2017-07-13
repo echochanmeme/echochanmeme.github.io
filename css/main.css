@@ -928,7 +928,7 @@ img::-moz-selection {
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #DDDDDD; }
+  border-top: 0px solid #DDDDDD; }
 
 *:focus {
   outline: none; }
