@@ -429,14 +429,14 @@ img::-moz-selection {
   .section-title__divider {
     width: 30%;
     margin: 2.2em 0 2.1em 0;
-    border-top: 1px solid #CC00FF; 
+    border-top: 1px solid #DDDDDD; 
   }
 
   .hidden {
     display: none !important; }
 
   .post-comments {
-    border-top: 1px solid #CC00FF;
+    border-top: 1px solid #DDDDDD;
     padding: 60px 0; }
 
   .post-meta {
@@ -484,7 +484,7 @@ img::-moz-selection {
     display: block;
     width: 30%;
     margin: 2em 0;
-    border-top: 1px solid #CC00FF; }
+    border-top: 1px solid #DDDDDD; }
 
   .panel {
     display: table;
@@ -928,7 +928,7 @@ img::-moz-selection {
 .post-list__divider {
   width: 30%;
   margin: 2.2em 0 2.1em 0;
-  border-top: 1px solid #CC00FF; }
+  border-top: 1px solid #DDDDDD; }
 
 *:focus {
   outline: none; }
@@ -949,7 +949,7 @@ input[type="tel"] {
   width: 240px;
   padding: 1em 1em;
   background: #FFF;
-  border: 1px solid #CC00FF;
+  border: 1px solid #DDDDDD;
   border-radius: 3px;
   font-size: .9em;
   color: #666666; }
